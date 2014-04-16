@@ -49,28 +49,7 @@ Avocado extends the basic functionalities of Quartz Composer (and Origami) allow
 Download [LiveView](http://www.zambetti.com/projects/liveview/) and use [this trick](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala).
 
 
-Patches in Avocado
-------------------
 
-Photo Grid?
-
-Master Detail?
-
-###Carousels
-- Swipe
-- 
-
-###Animation
-- Breathe
-- Shake
-- Jump
-- Jump to
-
-###Utilities
-- Delay Value, delay any value 
-- Delay Boolean, simplified delay to be used with boolean signals only
-- Map, remaps a value 
-- Abs, returns the absolute value of a number (-3 becomes 3, 23 remains 23)
 
 
 
