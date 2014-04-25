@@ -5,24 +5,10 @@ Avocado builds on top of Facebook's Origami framework to provide ready-to-use pa
 
 ###Getting Avocado
 
-1. [Register as an Apple Developer](https://developer.apple.com/register/index.action)
-2. [Download Quartz Composer](http://origami.facebook.com/quartzcomposer/)
-3. [Download the Avocado installer](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
-
+1. <a href="https://developer.apple.com/register/index.action" target="_blank">Register as an Apple Developer</a>
+2. <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">Download Quartz Composer</a>
+3. <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip" target="_blank">Download the Avocado installer</a>
 Avocado already includes Origami 1.2 so you do not need to install that separately. If you do have Origami already installed, it will be updated to the latest version.
-If you'd prefer to stay up-to-date with the bleeding edge, you can clone this repository to your computer, and link the `Avocado` directory, the `Origami` directory, and the `Origami.plugin` file to `~/Library/Graphics/Quartz Composer Patches`.
-
-Open a Terminal and do the following.
-
-```sh
-mkdir ~/Workspace
-cd ~/Workspace
-git clone https://github.com/ideo/avocado.git
-mkdir -p ~/Library/Graphics/Quartz\ Composer\ Patches
-ln -s `pwd`/avocado/Avocado ~/Library/Graphics/Quartz\ Composer\ Patches
-ln -s `pwd`/avocado/Origami ~/Library/Graphics/Quartz\ Composer\ Patches
-ln -s `pwd`/avocado/Origami.plugin ~/Library/Graphics/Quartz\ Composer\ Patches
-```
 
 ###Getting started with Quartz Composer
 
@@ -45,6 +31,20 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the
 ###Patches in Avocado
 
 
+###
+If you'd like to stay up-to-date with the bleeding edge, you can clone this repository to your computer, and link the `Avocado` directory, the `Origami` directory, and the `Origami.plugin` file to `~/Library/Graphics/Quartz Composer Patches`.
+
+Open a Terminal and do the following.
+
+```sh
+mkdir ~/Workspace
+cd ~/Workspace
+git clone https://github.com/ideo/avocado.git
+mkdir -p ~/Library/Graphics/Quartz\ Composer\ Patches
+ln -s `pwd`/avocado/Avocado ~/Library/Graphics/Quartz\ Composer\ Patches
+ln -s `pwd`/avocado/Origami ~/Library/Graphics/Quartz\ Composer\ Patches
+ln -s `pwd`/avocado/Origami.plugin ~/Library/Graphics/Quartz\ Composer\ Patches
+```
 
 
 ###Feedback
