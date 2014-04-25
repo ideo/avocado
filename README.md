@@ -1,4 +1,4 @@
-![](https://github.com/trive/avocado/blob/master/Other/logo.pdf "")
+![](https://github.com/ideo/avocado/raw/master/Other/logo.png "")
 
 Avocado
 =======
@@ -10,8 +10,8 @@ Getting Avocado
 ---------------
 
 1. [Register as an Apple Developer](https://developer.apple.com/register/index.action)
-2. [Download Quartz Composer](http://facebook.github.io/origami/images/quartz-composer.png)
-3. [Download the Avocado installer](http://avocado.ideo.com)
+2. [Download Quartz Composer](http://origami.facebook.com/quartzcomposer/)
+3. [Download the Avocado installer](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
 
 Avocado already includes Origami 1.2 so you do not need to install that separately. If you do have Origami already installed, it will be updated to the latest version.
 If you'd prefer to stay up-to-date with the bleeding edge, you can clone this repository to your computer, and link the `Avocado` directory, the `Origami` directory, and the `Origami.plugin` file to `~/Library/Graphics/Quartz Composer Patches`.
