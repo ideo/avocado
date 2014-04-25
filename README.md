@@ -1,10 +1,10 @@
+![](https://github.com/trive/avocado/blob/master/Other/logo.pdf "")
+
 Avocado
 =======
 
 Avocado is a toolbox to make quick interactive prototypes--without writing a line of code.
 Avocado builds on top of Facebook's Origami framework to provide ready-to-use patches that can be easily combined to create fully customized prototypes.
-
-Most designers today create static mockups to communicate app ideas. But increasingly apps are anything but static, which means as designers we need a better tool for interaction design—this is where Avocado and Origami come in.
 
 Getting Avocado
 ---------------
@@ -13,7 +13,7 @@ Getting Avocado
 2. [Download Quartz Composer](http://facebook.github.io/origami/images/quartz-composer.png)
 3. [Download the Avocado installer](http://avocado.ideo.com)
 
-Avocado already includes Origami 1.1 so you do not need to install that separately. If you do have Origami already installed, it will be updated to the latest version.
+Avocado already includes Origami 1.2 so you do not need to install that separately. If you do have Origami already installed, it will be updated to the latest version.
 If you'd prefer to stay up-to-date with the bleeding edge, you can clone this repository to your computer, and link the `Avocado` directory, the `Origami` directory, and the `Origami.plugin` file to `~/Library/Graphics/Quartz Composer Patches`.
 
 Open a Terminal and do the following.
@@ -21,7 +21,7 @@ Open a Terminal and do the following.
 ```sh
 mkdir ~/Workspace
 cd ~/Workspace
-git clone https://github.com/trive/avocado.git
+git clone https://github.com/ideo/avocado.git
 mkdir -p ~/Library/Graphics/Quartz\ Composer\ Patches
 ln -s `pwd`/avocado/Avocado ~/Library/Graphics/Quartz\ Composer\ Patches
 ln -s `pwd`/avocado/Origami ~/Library/Graphics/Quartz\ Composer\ Patches
@@ -43,11 +43,13 @@ Avocado extends the basic functionalities of Quartz Composer (and Origami) allow
 - [Understanding coordinates in Quartz Composer](http://macoscope.com/blog/quartz-composer-origami-mouse-headaches/)
 - A [temporary fix](http://macoscope.com/blog/science-behind-snapping-scroll-part-i-dragging/) to the [Drag Drift bug](https://github.com/facebook/origami/issues/22) in Quartz Composer
 - [Facebook Origami's Community](https://www.facebook.com/groups/origami.community/)
-- [Avocado's Community](https://www.facebook.com/groups/avocado.community/)
 
-###How to test the prototypes on the device?
-Download [LiveView](http://www.zambetti.com/projects/liveview/) and use [this trick](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala).
+###How to test the prototypes on a device?
+Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the framerate you can use [this trick](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala).
 
+
+Patches in Avocado
+------------------
 
 
 
@@ -55,6 +57,6 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/) and use [this tr
 
 Feedback
 --------
-Your feedback is important in making Avocado better – feel free to open an Issue here on GitHub, [send us a tweet @AvocadoByIDEO](https://twitter.com/AvocadoByIDEO), or post on the [Avocado community page](https://www.facebook.com/groups/avocado.community/).
+Your feedback is important in making Avocado better – feel free to open an issue here on GitHub or [tweet to @AvocadoByIDEO](https://twitter.com/AvocadoByIDEO).
 
 We hope you enjoy using Avocado, happy prototyping!
