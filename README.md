@@ -1,8 +1,4 @@
-![](https://github.com/ideo/avocado/raw/master/Other/logo.png "")
----
-![Download here](https://github.com/ideo/avocado/raw/master/Other/logo.png "HELLO")
----
-[![Download here](https://github.com/ideo/avocado/raw/master/Other/logo.png "HELLO")](http://www.google.com)
+[![](https://github.com/ideo/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
 
 Avocado is a toolbox to make quick interactive prototypes--without writing a line of code.
 Avocado builds on top of Facebook's Origami framework to provide ready-to-use patches that can be easily combined to create fully customized prototypes.
@@ -34,8 +30,7 @@ Getting started with Quartz Composer
 
 ###What is Quartz Composer?
 Quartz Composer is a node-based visual programming language provided as part of the Xcode development environment in Mac OS X for processing and rendering graphical data.
-It turns out it is a pretty fantastic tool to develop interactive prototypes.
-Avocado extends the basic functionalities of Quartz Composer (and Origami) allowing designers to quickly prototype ideas.
+Out of the box without Origami, interaction prototyping with Quartz Composer is complicated. Avocado provides a set of tools for Quartz Composer that make interaction prototyping a lot easier.
 
 ###Some resources
 - [The 4-Minute Guide to Quartz Composer](https://vimeo.com/88468610)
