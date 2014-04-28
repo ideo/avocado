@@ -1,5 +1,5 @@
 [![](https://github.com/ideo/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
-[![](https://github.com/ideo/avocado/raw/master/Other/guide.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
+![](https://github.com/ideo/avocado/raw/master/Other/guide.png "")
 
 Avocado is a toolbox to make quick interactive prototypes—without writing a line of code.
 Avocado builds on top of Facebook's Origami framework to provide ready-to-use patches that can be easily combined to create fully customized prototypes.
