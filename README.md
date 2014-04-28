@@ -1,6 +1,7 @@
 [![](https://github.com/ideo/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
+[![](https://github.com/ideo/avocado/raw/master/Other/guide.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
 
-Avocado is a toolbox to make quick interactive prototypes--without writing a line of code.
+Avocado is a toolbox to make quick interactive prototypes—without writing a line of code.
 Avocado builds on top of Facebook's Origami framework to provide ready-to-use patches that can be easily combined to create fully customized prototypes.
 
 ###Getting Avocado
@@ -8,6 +9,7 @@ Avocado builds on top of Facebook's Origami framework to provide ready-to-use pa
 1. <a href="https://developer.apple.com/register/index.action" target="_blank">Register as an Apple Developer</a>
 2. <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">Download Quartz Composer</a>
 3. <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip" target="_blank">Download the Avocado installer</a>
+
 Avocado already includes Origami 1.2 so you do not need to install that separately. If you do have Origami already installed, it will be updated to the latest version.
 
 ###Getting started with Quartz Composer
@@ -31,7 +33,7 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the
 ###Patches in Avocado
 
 
-###
+###living life on the edge
 If you'd like to stay up-to-date with the bleeding edge, you can clone this repository to your computer, and link the `Avocado` directory, the `Origami` directory, and the `Origami.plugin` file to `~/Library/Graphics/Quartz Composer Patches`.
 
 Open a Terminal and do the following.
