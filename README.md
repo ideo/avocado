@@ -1,4 +1,4 @@
-[![](https://github.com/ideo/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip)
+[![](https://github.com/ideo/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/trive/avocado/raw/master/Other/Avocado.zip)
 ![](https://github.com/trive/avocado/raw/master/Other/guide.png "")
 
 Avocado is a toolbox to make quick interactive prototypes—without writing a line of code.
