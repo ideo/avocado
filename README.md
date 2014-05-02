@@ -8,7 +8,7 @@ Avocado builds on top of Facebook's Origami framework to provide ready-to-use pa
 
 1. <a href="https://developer.apple.com/register/index.action" target="_blank">Register as an Apple Developer</a>
 2. <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">Download Quartz Composer</a>
-3. <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado%20BETA.mpkg.zip" target="_blank">Download the Avocado installer</a>
+3. <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.mpkg.zip" target="_blank">Download the Avocado installer</a>
 
 Avocado already includes Origami 1.2 so you do not need to install that separately. If you do have Origami already installed, it will be updated to the latest version.
 
@@ -33,10 +33,10 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the
 ###Patches in Avocado
 ####Interactions
 - _Carousel_, creates a swipeable carousel of images
-- _Bistable_, makes an element snap in two positions
+- _Bistable_, makes an element snap to two positions
 - _Master Detail_, creates a Master-Detail relationship between two views (a-la iOS 7)
 - _Flip_, creates a card that can be flipped back and forth
-- _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked on use the _Hit Grid Info_ patch
+- _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked use _Hit Grid Info_
 
 ####Animations
 - _Pulse_
@@ -56,7 +56,7 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the
 - _String to Number_, turns a string of numbers into a number
 
 
-###living life on the edge
+###Living life on the edge
 If you'd like to stay up-to-date with the bleeding edge, you can clone this repository to your computer, and link the `Avocado` directory, the `Origami` directory, and the `Origami.plugin` file to `~/Library/Graphics/Quartz Composer Patches`.
 
 Open a Terminal and do the following.
