@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<installer-script authoringTool="Packages" authoringToolVersion="1.1.1" authoringToolBuild="2B71" minSpecVersion="1.0">
+    <options rootVolumeOnly="true" customize="never"/>
+    <installation-check script="installation_check()"/>
+    <!--+==========================+
+        |       Presentation       |
+        +==========================+-->
+    <title>DISTRIBUTION_TITLE</title>
+    <background file="background" scaling="proportional" alignment="left"/>
+    <!--+==========================+
+        |         Installer        |
+        +==========================+-->
+    <choices-outline>
+        <line choice="installer_choice_1"/>
+    </choices-outline>
+    <choice id="installer_choice_1" title="Avocado" description="">
+        <pkg-ref id="com.ideo.Avocado"/>
+    </choice>
+    <!--+==========================+
+        |    Package References    |
+        +==========================+-->
+    <pkg-ref id="com.ideo.Avocado" version="0.3" installKBytes="6318">file:./Contents/Packages/Avocado.pkg</pkg-ref>
+    <!--+==========================+
+        |    JavaScript Scripts    |
+        +==========================+-->
+    <script>
+
+	const __IC_FLAT_DISTRIBUTION__=false;
+	const IC_DISK_TYPE_DESTINATION=0;
+	const IC_DISK_TYPE_STARTUP_DISK=1;
+	const IC_OS_DISTRIBUTION_TYPE_ANY=0;
+	const IC_OS_DISTRIBUTION_TYPE_CLIENT=1;
+	const IC_OS_DISTRIBUTION_TYPE_SERVER=2;
+
+	function IC_CheckOS(inDiskType,inMustBeInstalled,inMinimumVersion,inDistributionType)
+	{
+		var tOSVersion=undefined;
+		
+		/* Check Minimum Version */
+		
+		if (inDiskType==IC_DISK_TYPE_DESTINATION)
+		{
+			if (my.target.systemVersion!=undefined)
+			{
+				tOSVersion=my.target.systemVersion.ProductVersion;
+			}
+			
+			/* Check if no OS is installed on the potential target */
+			
+			if (tOSVersion==undefined)
+			{
+				return (inMustBeInstalled==false);
+			}
+		}
+		else
+		{
+			tOSVersion=system.version.ProductVersion;
+		}
+		
+		if (system.compareVersions(tOSVersion,inMinimumVersion)==-1)
+		{
+			return false;
+		}
+		
+		/* Check Distribution Type */
+		
+		if (inDistributionType!=IC_OS_DISTRIBUTION_TYPE_ANY)
+		{
+			var tIsServer;
+			
+			if (inDiskType==IC_DISK_TYPE_DESTINATION)
+			{
+				tIsServer=system.files.fileExistsAtPath(my.target.mountpoint+'/System/Library/CoreServices/ServerVersion.plist');
+			}
+			else
+			{
+				tIsServer=system.files.fileExistsAtPath('/System/Library/CoreServices/ServerVersion.plist');
+			}
+			
+			if (inDistributionType==IC_OS_DISTRIBUTION_TYPE_CLIENT &amp;&amp; tIsServer==true)
+			{
+				return false;
+			}
+			
+			if (inDistributionType==IC_OS_DISTRIBUTION_TYPE_SERVER &amp;&amp; tIsServer==false)
+			{
+				return false;
+			}
+		}
+		
+		return true;
+	}
+
+	function installation_check()
+	{
+		var tResult;
+
+		tResult=IC_CheckOS(IC_DISK_TYPE_STARTUP_DISK,true,'10.5',IC_OS_DISTRIBUTION_TYPE_ANY);
+
+		if (tResult==false)
+		{
+			my.result.title = system.localizedStandardStringWithFormat('InstallationCheckError', system.localizedString('DISTRIBUTION_TITLE'));
+			my.result.message = ' ';
+			my.result.type = 'Fatal';
+		}
+
+		return tResult;
+	}
+
+    </script>
+</installer-script>

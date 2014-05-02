@@ -31,6 +31,29 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the
 
 
 ###Patches in Avocado
+####Interactions
+- _Carousel_, creates a swipeable carousel of images
+- _Bistable_, makes an element snap in two positions
+- _Master Detail_, creates a Master-Detail relationship between two views (a-la iOS 7)
+- _Flip_, creates a card that can be flipped back and forth
+- _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked on use the _Hit Grid Info_ patch
+
+####Animations
+- _Pulse_
+- _Shake_
+- _Jump_
+
+####Global Value
+- _Save Global Boolean_ and _Retrieve Global Boolean_
+- _Save Global String_ and _Retrieve Global String_
+
+####Utilities
+- _Delay Value_, delay any value by the specified amount of time
+- _Gate_, stops the propagation of a signal
+- _Invert_, flips a boolean value
+- _Map to Range_, remaps a value to a new range
+- _Absolute Value_, returns the absolute value of a number
+- _String to Number_, turns a string of numbers into a number
 
 
 ###living life on the edge
