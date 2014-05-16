@@ -11,7 +11,7 @@ Avocado builds on top of Facebook's Origami framework to provide ready-to-use pa
 
 ####What is Quartz Composer?
 Quartz Composer is a node-based visual programming language provided as part of the Xcode development environment in Mac OS X for processing and rendering graphical data.
-Out of the box without Origami, interaction prototyping with Quartz Composer is complicated. Avocado provides a set of tools for Quartz Composer that make interaction prototyping a lot easier.
+Out of the box, interaction prototyping with Quartz Composer is complicated. Avocado provides a set of ready-to-use components that enable designers to quickly create interactive prototypes.
 
 ####Some resources
 - [The 4-Minute Guide to Quartz Composer](https://vimeo.com/88468610)
