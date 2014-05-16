@@ -1,7 +1,8 @@
-[![](https://github.com/ideo/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado.zip)
-![](https://github.com/ideo/avocado/raw/master/Other/guide.png "")
+[![](https://github.com/trive/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado.zip)
+[![](https://github.com/trive/avocado/raw/master/Other/step1.png "")](https://developer.apple.com/register/index.action) [![](https://github.com/trive/avocado/raw/master/Other/step2.png "")](http://origami.facebook.com/quartzcomposer/) [![](https://github.com/trive/avocado/raw/master/Other/step3.png "")](https://github.com/ideo/avocado/raw/master/Other/Avocado.zip)
 
-Avocado is a toolbox to make quick interactive prototypes—without writing a line of code.
+Avocado is an interaction design toolkit built at [IDEO](http://www.ideo.com).
+Avocado enables designers to make quick interactive prototypes without writing a line of code.
 Avocado builds on top of Facebook's Origami framework to provide ready-to-use patches that can be easily combined to create fully customized prototypes.
 
 ###Getting Avocado
@@ -24,7 +25,7 @@ Out of the box without Origami, interaction prototyping with Quartz Composer is 
 - [Apple's Guide to Quartz Composer](https://developer.apple.com/library/mac/documentation/graphicsimaging/conceptual/QuartzComposerUserGuide/qc_intro/qc_intro.html#//apple_ref/doc/uid/TP40005381)
 - [Understanding coordinates in Quartz Composer](http://macoscope.com/blog/quartz-composer-origami-mouse-headaches/)
 - A [temporary fix](http://macoscope.com/blog/science-behind-snapping-scroll-part-i-dragging/) to the [Drag Drift bug](https://github.com/facebook/origami/issues/22) in Quartz Composer
-- [Facebook Origami's Community](https://www.facebook.com/groups/origami.community/)
+- [Facebook Origami's Community](https://www.facebhook.com/groups/origami.community/)
 
 ####How to test the prototypes on a device?
 Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the framerate you can use [this trick](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala).
@@ -38,7 +39,7 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the
 - _Flip_, creates a card that can be flipped back and forth
 - _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked use _Hit Grid Info_
 
-####Animations
+####Animations (coming in 1.0)
 - _Pulse_
 - _Shake_
 - _Jump_
