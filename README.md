@@ -1,9 +1,10 @@
 [![](https://github.com/trive/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado.zip)
 <a href="https://developer.apple.com/register/index.action" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step1.png"/></a><a href="http://origami.facebook.com/quartzcomposer/" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step2.png"/></a><a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step3.png"/></a>
 
-Avocado is an interaction design toolkit built at [IDEO](http://www.ideo.com).
-Avocado enables designers to make quick interactive prototypes without writing a line of code.
-Avocado builds on top of Facebook's Origami framework to provide ready-to-use patches that can be easily combined to create fully customized prototypes.
+Avocado is an open source interaction design toolbox built by​ [IDEO](http://www.ideo.com).​ It ​enables designers to make quick interactive prototypes without writing a line of code.​ ​Built on top of Facebook's Origami framework, Avocado provides ready-to-use patches that can be easily combined to create fully-customized prototypes.​ 
+
+We're always in search of ways to collaborate and build more effectively​ at IDEO, and this library is an experiment that helps us be lean when prototyping interactions. We hope Avocado can be of use to you, and please feel free to share your ideas here on GitHub ​or​ tweet to [@AvocadoByIDEO​](https://twitter.com/AvocadoByIDEO).​
+
 
 
 
@@ -52,7 +53,5 @@ Download [LiveView](http://www.zambetti.com/projects/liveview/). To increase the
 
 
 ###Feedback
+If you have any thoughts or contributions for how we can continue to evolve this experiment, feel free to share your ideas here on  GitHub​ or​ [tweet to @AvocadoByIDEO](https://twitter.com/AvocadoByIDEO).
 
-Your feedback is important in making Avocado better – feel free to open an issue here on GitHub or [tweet to @AvocadoByIDEO](https://twitter.com/AvocadoByIDEO).
-
-We hope you enjoy using Avocado, happy prototyping!
