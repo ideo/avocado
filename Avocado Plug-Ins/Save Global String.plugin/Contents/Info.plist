@@ -7,13 +7,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>SaveGlobalVariable</string>
+	<string>Save Global String</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.ideo.SaveGlobalVariable</string>
+	<string>com.ideo.Save-Global-String</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SaveGlobalVariable</string>
+	<string>Save Global String</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
@@ -27,9 +27,9 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>13C64</string>
+	<string>12F37</string>
 	<key>DTSDKName</key>
-	<string>macosx10.9</string>
+	<string>macosx10.8</string>
 	<key>DTXcode</key>
 	<string>0511</string>
 	<key>DTXcodeBuild</key>
@@ -38,7 +38,7 @@
 	<string>Copyright © 2014 IDEO. All rights reserved.</string>
 	<key>QCPlugInClasses</key>
 	<array>
-		<string>SaveGlobalVariablePlugIn</string>
+		<string>Save_Global_StringPlugIn</string>
 	</array>
 </dict>
 </plist>
