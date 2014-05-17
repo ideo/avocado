@@ -20,7 +20,7 @@ Out of the box, interaction prototyping with Quartz Composer is complicated. Avo
 - <a href="https://developer.apple.com/library/mac/documentation/graphicsimaging/conceptual/QuartzComposerUserGuide/qc_intro/qc_intro.html#//apple_ref/doc/uid/TP40005381" target="_blank">Apple's Guide to Quartz Composer</a>
 - <a href="http://macoscope.com/blog/quartz-composer-origami-mouse-headaches/" target="_blank">Understanding coordinates in Quartz Composer</a>
 - A <a href="http://macoscope.com/blog/science-behind-snapping-scroll-part-i-dragging/" target="_blank">temporary fix</a> to the <a href="https://github.com/facebook/origami/issues/22" target="_blank">Drag Drift bug</a> in Quartz Composer
-- [Facebook Origami's Community](https://www.facebook.com/groups/origami.community/)
+- <a href="https://www.facebook.com/groups/origami.community/" target="_blank">Facebook Origami's Community</a>
 
 ####How to test the prototypes on a device?
 Download <a href="http://www.zambetti.com/projects/liveview" target="_blank">LiveView</a>. To increase the framerate you can use <a href="http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala" target="_blank">this trick</a>.
