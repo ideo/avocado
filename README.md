@@ -29,7 +29,7 @@ Download <a href="http://www.zambetti.com/projects/liveview" target="_blank">Liv
 ###Getting started with Avocado
 To get started with Avocado simply <a href="https://developer.apple.com/register/index.action" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
 
-Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" target="_blank">frequently asked questions</a> and some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a>a>. Below you can find a description of all the patches included in Avocado.
+Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" target="_blank">frequently asked questions</a> and some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a>. Below you can find a description of all the patches included in Avocado.
 
 ####Interactions
 - _Carousel_, creates a swipeable carousel of images
