@@ -26,7 +26,11 @@ Out of the box, interaction prototyping with Quartz Composer is complicated. Avo
 Download <a href="http://www.zambetti.com/projects/liveview" target="_blank">LiveView</a>. To increase the framerate you can use <a href="http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala" target="_blank">this trick</a>.
 
 
-###Patches in Avocado
+###Getting started with Avocado
+To get started with Avocado simply <a href="https://developer.apple.com/register/index.action" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
+
+Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" target="_blank">frequently asked questions</a> and some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a>a>. Below you can find a description of all the patches included in Avocado.
+
 ####Interactions
 - _Carousel_, creates a swipeable carousel of images
 - _Bistable_, makes an element snap to two positions
@@ -35,6 +39,7 @@ Download <a href="http://www.zambetti.com/projects/liveview" target="_blank">Liv
 - _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked use _Hit Grid Info_
 
 ####Animations (coming in 1.0)
+- _Nod_
 - _Pulse_
 - _Shake_
 - _Jump_
@@ -44,6 +49,7 @@ Download <a href="http://www.zambetti.com/projects/liveview" target="_blank">Liv
 - _Save Global String_ and _Retrieve Global String_
 
 ####Utilities
+- _Keyboard 2_, provides information about which key is being pressed
 - _Delay Value_, delay any value by the specified amount of time
 - _Gate_, stops the propagation of a signal
 - _Invert_, flips a boolean value
