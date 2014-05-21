@@ -11,8 +11,8 @@ We're always in search of ways to collaborate and build more effectively​ at I
 ###Getting started with Quartz Composer
 
 ####What is Quartz Composer?
-Quartz Composer is a node-based visual programming language provided as part of the Xcode development environment in Mac OS X for processing and rendering graphical data.
-Out of the box, interaction prototyping with Quartz Composer is complicated. Avocado provides a set of ready-to-use components that enable designers to quickly create interactive prototypes.
+Quartz Composer is a visual programming language provided as part of the Xcode development environment in Mac OS X.
+Prototyping interactions with Quartz Composer is not immediate. Avocado provides a set of ready-to-use components that enables designers to quickly create interactive prototypes.
 
 ####Some resources
 - <a href="https://vimeo.com/88468610" target="_blank">The 4-Minute Guide to Quartz Composer</a>
@@ -32,13 +32,14 @@ To get started with Avocado simply <a href="https://developer.apple.com/register
 Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" target="_blank">frequently asked questions</a> and some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a>. Below you can find a description of all the patches included in Avocado.
 
 ####Interactions
-- _Carousel_, creates a swipeable carousel of images
-- _Bistable_, makes an element snap to two positions
-- _Master Detail_, creates a Master-Detail relationship between two views (a-la iOS 7)
+- _Carousel_, creates a swipeable carousel of images. Information on its current state is provided through the _Carousel Info_ patch
+- _Bistable_, makes an element snap to two positions. Information on its current state is provided through the _Bistable Info_ patch
+- _Master Detail_, creates a Master-Detail relationship between two views
 - _Flip_, creates a card that can be flipped back and forth
 - _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked use _Hit Grid Info_
+- _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
-####Animations (coming in 1.0)
+####Animations
 - _Nod_
 - _Pulse_
 - _Shake_
@@ -49,7 +50,7 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _Save Global String_ and _Retrieve Global String_
 
 ####Utilities
-- _Keyboard 2_, provides information about which key is being pressed
+- _Keyboard 2_, meant to replace the standard _Keyboard_ patch. It provides information on which key is being pressed
 - _Delay Value_, delay any value by the specified amount of time
 - _Gate_, stops the propagation of a signal
 - _Invert_, flips a boolean value
@@ -59,5 +60,5 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 
 
 ###Feedback
-If you have any thoughts or contributions for how we can continue to evolve this experiment, feel free to share your ideas here on  GitHub​ or​ <a href="https://twitter.com/AvocadoByIDEO" target="_blank">tweet to @AvocadoByIDEO</a>.
+If you have any thoughts or contributions for how we can continue to evolve this experiment, feel free to share your ideas here on GitHub​ or​ <a href="https://twitter.com/AvocadoByIDEO" target="_blank">tweet to @AvocadoByIDEO</a>.
 
