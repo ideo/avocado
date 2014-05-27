@@ -10,8 +10,6 @@ We hope Avocado can be of use to you, and please feel free to share your ideas h
 
 
 
-
-
 ###Getting started with Quartz Composer
 
 ####What is Quartz Composer?
@@ -43,15 +41,11 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked use _Hit Grid Info_
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
-<img style="display: inline-block;"src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<div style="display: inline-block; width: 20px;"></div>
-<img style="display: inline-block;"src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
-<div style="display: inline-block; width: 20px;"></div>
-<img style="display: inline-block;"src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
-<div style="display: inline-block; width: 20px;"></div>
-<img style="display: inline-block;"src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<div style="display: inline-block; width: 20px;"></div>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
+<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Keyboard.gif"/>
+<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
+<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Flip.gif"/>
+<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
 
 ####Animations
 - _Nod_
@@ -72,6 +66,7 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _Map to Range_, remaps a value to a new range
 - _Absolute Value_, returns the absolute value of a number
 - _String to Number_, turns a string of numbers into a number
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Delay.gif"/>
 
 
 ###Feedback
