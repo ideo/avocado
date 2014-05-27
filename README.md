@@ -42,16 +42,17 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Keyboard.gif"/>
-<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
-<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Flip.gif"/>
-<img style="padding-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
+<img style="margin-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Keyboard.gif"/>
+<img style="margin-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
+<img style="margin-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Flip.gif"/>
+<img style="margin-left: 20px;" src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
 
 ####Animations
 - _Nod_
 - _Pulse_
 - _Jiggle_
 - _Jump_
+
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Animations.gif"/>
 
 ####Global Value
@@ -66,6 +67,7 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _Map to Range_, remaps a value to a new range
 - _Absolute Value_, returns the absolute value of a number
 - _String to Number_, turns a string of numbers into a number
+
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Delay.gif"/>
 
 
