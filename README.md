@@ -3,7 +3,11 @@
 
 Avocado is an open source interaction design toolbox built by​ <a href="http://www.ideo.com" target="_blank">IDEO</a>.​ It ​enables designers to make quick interactive prototypes without writing a line of code.​ ​Built on top of Facebook's Origami framework, Avocado provides ready-to-use patches that can be easily combined to create fully-customized prototypes.​ 
 
-We're always in search of ways to collaborate and build more effectively​ at IDEO, and this library is an experiment that helps us be lean when prototyping interactions. We hope Avocado can be of use to you, and please feel free to share your ideas here on GitHub ​or​ <a href="https://twitter.com/AvocadoByIDEO" target="_blank">tweet to @AvocadoByIDEO</a>.​
+We're always in search of ways to collaborate and build more effectively​ at IDEO, and this library is an experiment that helps us be lean when prototyping interactions.
+Curious to learn more about the story behind Avocado? Visit our <a href="http://ideo.is/labs_avocado" target="_blank">IDEO Labs post</a>. 
+
+We hope Avocado can be of use to you, and please feel free to share your ideas here on GitHub ​or​ <a href="https://twitter.com/AvocadoByIDEO" target="_blank">tweet to @AvocadoByIDEO</a>.​
+
 
 
 
@@ -42,8 +46,9 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 ####Animations
 - _Nod_
 - _Pulse_
-- _Shake_
+- _Jiggle_
 - _Jump_
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Animations.gif"/>
 
 ####Global Value
 - _Save Global Boolean_ and _Retrieve Global Boolean_
