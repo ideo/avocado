@@ -44,13 +44,13 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<img src="" width="20"/>
+<p>  </p>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
-<img src="" width="20"/>
+<p>  </p>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
-<img src="" width="20"/>
+<p>  </p>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<img src="" width="20"/>
+<p>  </p>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
 
 ####Animations
