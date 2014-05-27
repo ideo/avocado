@@ -44,13 +44,9 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<div style="width: 20px; height: 20px"></div>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
-<div style="width: 20px; height: 20px"></div>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
-<div style="width: 20px; height: 20px"></div>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<div style="width: 20px; height: 20px"></div>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
 
 ####Animations
