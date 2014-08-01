@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>13C64</string>
+	<string>13E28</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -19,23 +19,23 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>6</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>5A2034a</string>
+	<string>5B1008</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>13A595</string>
+	<string>13C64</string>
 	<key>DTSDKName</key>
 	<string>macosx10.9</string>
 	<key>DTXcode</key>
-	<string>0501</string>
+	<string>0511</string>
 	<key>DTXcodeBuild</key>
-	<string>5A2034a</string>
+	<string>5B1008</string>
 	<key>GFPlugIn</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
