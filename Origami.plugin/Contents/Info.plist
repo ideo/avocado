@@ -21,7 +21,11 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.4</string>
 	<key>CFBundleVersion</key>
+<<<<<<< HEAD
 	<string>7</string>
+=======
+	<string>8</string>
+>>>>>>> upstream/master
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
