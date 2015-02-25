@@ -12,6 +12,7 @@ We hope Avocado can be of use to you, and please feel free to share your ideas h
 
 ###Getting started with Quartz Composer
 
+
 ####What is Quartz Composer?
 Quartz Composer is a visual programming language provided as part of the Xcode development environment in Mac OS X.
 Prototyping interactions with Quartz Composer is not immediate. Avocado provides a set of ready-to-use components that enables designers to quickly create interactive prototypes.
