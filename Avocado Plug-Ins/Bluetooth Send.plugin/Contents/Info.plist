@@ -5,21 +5,23 @@
 	<key>BuildMachineOSBuild</key>
 	<string>14C1514</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>Keyboard 2</string>
+	<string>Bluetooth Send</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.ideo.Keyboard-2</string>
+	<string>com.ideo.Bluetooth-Send</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Keyboard 2</string>
+	<string>Bluetooth Send</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
-	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -35,10 +37,10 @@
 	<key>DTXcodeBuild</key>
 	<string>6C131e</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 IDEO. All rights reserved.</string>
+	<string>Copyright © 2015 Marco Triverio. All rights reserved.</string>
 	<key>QCPlugInClasses</key>
 	<array>
-		<string>Keyboard_2PlugIn</string>
+		<string>Bluetooth_SendPlugIn</string>
 	</array>
 </dict>
 </plist>
