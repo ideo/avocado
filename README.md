@@ -19,20 +19,20 @@ Prototyping interactions with Quartz Composer is not immediate. Avocado provides
 
 ####Some resources
 - <a href="https://vimeo.com/88468610" target="_blank">The 4-Minute Guide to Quartz Composer</a>
+- <a href="http://facebook.github.io/origami/tutorials/" target="_blank">Facebook Origami's tutorials</a>
+- <a href="http://facebook.github.io/origami/documentation/concepts/Coordinates.html" target="_blank">Understanding coordinates in Quartz Composer</a>
 - <a href="http://www.amazon.com/Learning-Quartz-Composer-Hands-Creating/dp/0321636945" target="_blank">Learning Quartz Composer Book</a>
 - <a href="https://developer.apple.com/library/mac/documentation/graphicsimaging/conceptual/QuartzComposerUserGuide/qc_intro/qc_intro.html#//apple_ref/doc/uid/TP40005381" target="_blank">Apple's Guide to Quartz Composer</a>
-- <a href="http://macoscope.com/blog/quartz-composer-origami-mouse-headaches/" target="_blank">Understanding coordinates in Quartz Composer</a>
-- A <a href="http://macoscope.com/blog/science-behind-snapping-scroll-part-i-dragging/" target="_blank">temporary fix</a> to the <a href="https://github.com/facebook/origami/issues/22" target="_blank">Drag Drift bug</a> in Quartz Composer
 - <a href="https://www.facebook.com/groups/origami.community/" target="_blank">Facebook Origami's Community</a>
 
 ####How to test the prototypes on a device?
-Download <a href="http://www.zambetti.com/projects/liveview" target="_blank">LiveView</a>. To increase the framerate you can use <a href="http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala" target="_blank">this trick</a>.
+Download <a href="https://itunes.apple.com/app/id942636206" target="_blank">Origami Live for your iOS device</a>.
 
 
 ###Getting started with Avocado
 To get started with Avocado simply <a href="https://developer.apple.com/register/index.action" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
 
-Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" target="_blank">frequently asked questions</a> and some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a>. Below you can find a description of all the patches included in Avocado.
+Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a>. Below you can find a description of all the patches included in Avocado.
 
 ####Interactions
 - _Carousel_, creates a swipeable carousel of images. Information on its current state is provided through the _Carousel Info_ patch
@@ -59,6 +59,10 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _Jump_
 
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Animations.gif"/>
+
+####Bluetooth integation
+- Use _Bluetooth Send_ and _Bluetooth Receive_ to uni-directionally communicate with a BLE device
+- Use _Bluetooth Connection_ to bi-directionally communicate with a BLE device
 
 ####Global Value
 - _Save Global Boolean_ and _Retrieve Global Boolean_
