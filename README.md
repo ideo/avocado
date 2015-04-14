@@ -16,7 +16,8 @@ To get started with Avocado simply <a href="https://developer.apple.com/" target
 Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a> that show how to use Avocado. If you are new to Quartz Composer, take a look at <a href="http://facebook.github.io/origami/tutorials/" target="_blank">these tutorials</a>.
 
 
-###Interactions
+###What's in Avocado
+####Interactions
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/draggable.gif"/>
 <img src="" height="0px" width="5px"/>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/carousel.gif"/>
@@ -36,7 +37,7 @@ Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" tar
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
 
-###Bluetooth integation
+####Bluetooth integation
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth.gif"/>
 <img src="" height="0px" width="5px"/>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth2.gif"/>
@@ -44,7 +45,7 @@ Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" tar
 - Use _Bluetooth Connection_ to bi-directionally communicate with a BLE device
 - _Aggregate Values_ and _Disaggregate Value_ will help you send 4 values at once or decode one message into 4 values.
 
-###Animations
+####Animations
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/animations.gif"/>
 - _Nod_
 - _Pulse_
@@ -52,12 +53,12 @@ Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" tar
 - _Jump_
 
 
-###Global Value
+####Global Value
 With Avocado you can save values to be retrieved anywhere in the composition or that can be accessed by another composition running at the same time.
 - _Save Global Boolean_ and _Retrieve Global Boolean_
 - _Save Global String_ and _Retrieve Global String_
 
-###Utilities
+####Utilities
 - _Keyboard 2_, meant to replace the standard _Keyboard_ patch. It provides information on which key is being pressed
 - _Delay Value_, delay any value by the specified amount of time
 - _Gate_, stops the propagation of a signal
@@ -65,9 +66,6 @@ With Avocado you can save values to be retrieved anywhere in the composition or 
 - _Map to Range_, remaps a value to a new range
 - _Absolute Value_, returns the absolute value of a number
 - _String to Number_, turns a string of numbers into a number
-
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Delay.gif"/>
-
 
 ###Feedback
 If you have any thoughts or contributions for how we can continue to evolve this experiment, feel free to share your ideas here on GitHub​ or​ <a href="https://twitter.com/AvocadoByIDEO" target="_blank">tweet to @AvocadoByIDEO</a>.
