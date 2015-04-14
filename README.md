@@ -1,66 +1,60 @@
 [![](https://github.com/trive/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado.zip)
+<a href="https://vimeo.com/trive/avocado2" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/banner.png"/></a>
+
 <a href="https://developer.apple.com/register/index.action" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step1.png"/></a><a href="http://origami.facebook.com/quartzcomposer/" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step2.png"/></a><a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step3.png"/></a>
 
-Avocado is an open source interaction design toolbox built by​ <a href="http://www.ideo.com" target="_blank">IDEO</a>.​ It ​enables designers to make quick interactive prototypes without writing a line of code.​ ​Built on top of Facebook's Origami framework, Avocado provides ready-to-use patches that can be easily combined to create fully-customized prototypes.​ 
 
-We're always in search of ways to collaborate and build more effectively​ at IDEO, and this library is an experiment that helps us be lean when prototyping interactions.
-Curious to learn more about the story behind Avocado? Visit our <a href="http://ideo.is/avocado_labs" target="_blank">IDEO Labs post</a>. 
+
+Avocado is an open source interaction design toolbox built by​ <a href="http://www.ideo.com" target="_blank">IDEO</a>.​ It ​enables designers to make quick interactive prototypes without writing a line of code.​ ​Built on top of Facebook's <a href="http://origami.facebook.com" target="_blank">Origami</a> framework, Avocado provides ready-to-use patches that can be easily combined to create fully-customized prototypes.​ 
 
 We hope Avocado can be of use to you, and please feel free to share your ideas here on GitHub ​or​ <a href="https://twitter.com/AvocadoByIDEO" target="_blank">tweet to @AvocadoByIDEO</a>.​
 
 
+###Getting started
+To get started with Avocado simply <a href="https://developer.apple.com/" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
 
-###Getting started with Quartz Composer
-
-
-####What is Quartz Composer?
-Quartz Composer is a visual programming language provided as part of the Xcode development environment in Mac OS X.
-Prototyping interactions with Quartz Composer is not immediate. Avocado provides a set of ready-to-use components that enables designers to quickly create interactive prototypes.
-
-####Some resources
-- <a href="https://vimeo.com/88468610" target="_blank">The 4-Minute Guide to Quartz Composer</a>
-- <a href="http://www.amazon.com/Learning-Quartz-Composer-Hands-Creating/dp/0321636945" target="_blank">Learning Quartz Composer Book</a>
-- <a href="https://developer.apple.com/library/mac/documentation/graphicsimaging/conceptual/QuartzComposerUserGuide/qc_intro/qc_intro.html#//apple_ref/doc/uid/TP40005381" target="_blank">Apple's Guide to Quartz Composer</a>
-- <a href="http://macoscope.com/blog/quartz-composer-origami-mouse-headaches/" target="_blank">Understanding coordinates in Quartz Composer</a>
-- A <a href="http://macoscope.com/blog/science-behind-snapping-scroll-part-i-dragging/" target="_blank">temporary fix</a> to the <a href="https://github.com/facebook/origami/issues/22" target="_blank">Drag Drift bug</a> in Quartz Composer
-- <a href="https://www.facebook.com/groups/origami.community/" target="_blank">Facebook Origami's Community</a>
-
-####How to test the prototypes on a device?
-Download <a href="http://www.zambetti.com/projects/liveview" target="_blank">LiveView</a>. To increase the framerate you can use <a href="http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala" target="_blank">this trick</a>.
+Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a> that show how to use Avocado. If you are new to Quartz Composer, take a look at <a href="http://facebook.github.io/origami/tutorials/" target="_blank">these tutorials</a>.
 
 
-###Getting started with Avocado
-To get started with Avocado simply <a href="https://developer.apple.com/register/index.action" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
-
-Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" target="_blank">frequently asked questions</a> and some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a>. Below you can find a description of all the patches included in Avocado.
-
+###What's in Avocado
 ####Interactions
-- _Carousel_, creates a swipeable carousel of images. Information on its current state is provided through the _Carousel Info_ patch
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/draggable.gif"/>
+<img src="" height="0px" width="15px"/>
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/carousel.gif"/>
+
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/dial.gif"/>
+<img src="" height="0px" width="15px"/>
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/rolodex.gif"/>
+
+- _Draggable Layer_, a patch that lets you drag and drop a layer and fully customize the behavior of the drag and drop. The _Draggable Layer Animation_ lets you customize the pick-up animation. _Draggable Layer Snap Points_ lets you define points on the screen the layer will snap to. _Draggable Layer Boundaries_ lets you define boundaries for where the element can be dragged. Finally, _Draggable Layer Info_ provides information on the current state of a Draggable Layer
+- _Carousel_, creates a swipeable carousel of images. Information on its current state is provided through the _Carousel Info_ patch. You can customize the way a Carousel looks through the _Carousel Settings_ patch. You can also control the state of a Carousel through the _Carousel Controls_ patch
 - _Bistable_, makes an element snap to two positions. Information on its current state is provided through the _Bistable Info_ patch
+- _Card_, creates a card that can be flipped back and forth. Information on its current state is provided through the _Card Info_ patch
+- _Dial_, for scroll wheel-like Interactions. Information on its current state is provided through the _Dial Info_ patch
 - _Master Detail_, creates a Master-Detail relationship between two views
-- _Flip_, creates a card that can be flipped back and forth
+- _Rolodex_, for rolodex-like interaction. Information on its current state is provided through the _Rolodex Info_ patch
 - _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked use _Hit Grid Info_
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<img src="" height="0px" width="14px"/>
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Keyboard.gif"/>
-<img src="" height="0px" width="12px"/>
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
 
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Flip.gif"/>
-<img src="" height="0px" width="14px"/>
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
+####Bluetooth integation
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth.gif"/>
+<img src="" height="0px" width="15px"/>
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth2.gif"/>
+- Use _Bluetooth Send_ and _Bluetooth Receive_ to uni-directionally communicate with a BLE device
+- Use _Bluetooth Connection_ to bi-directionally communicate with a BLE device
+- _Aggregate Values_ and _Disaggregate Value_ will help you send 4 values at once or decode one message into 4 values.
 
 ####Animations
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/animations.gif"/>
 - _Nod_
 - _Pulse_
 - _Jiggle_
 - _Jump_
 
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Animations.gif"/>
 
 ####Global Value
+With Avocado you can save values to be retrieved anywhere in the composition or that can be accessed by another composition running at the same time.
 - _Save Global Boolean_ and _Retrieve Global Boolean_
 - _Save Global String_ and _Retrieve Global String_
 
@@ -72,9 +66,6 @@ Here are some <a href="https://github.com/ideo/avocado/blob/master/FAQ.md" targe
 - _Map to Range_, remaps a value to a new range
 - _Absolute Value_, returns the absolute value of a number
 - _String to Number_, turns a string of numbers into a number
-
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Delay.gif"/>
-
 
 ###Feedback
 If you have any thoughts or contributions for how we can continue to evolve this experiment, feel free to share your ideas here on GitHub​ or​ <a href="https://twitter.com/AvocadoByIDEO" target="_blank">tweet to @AvocadoByIDEO</a>.
