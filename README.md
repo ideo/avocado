@@ -19,11 +19,11 @@ Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" tar
 ###What's in Avocado
 ####Interactions
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/draggable.gif"/>
-<img src="" height="0px" width="5px"/>
+<img src="" height="0px" width="15px"/>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/carousel.gif"/>
 
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/dial.gif"/>
-<img src="" height="0px" width="5px"/>
+<img src="" height="0px" width="15px"/>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/rolodex.gif"/>
 
 - _Draggable Layer_, a patch that lets you drag and drop a layer and fully customize the behavior of the drag and drop. The _Draggable Layer Animation_ lets you customize the pick-up animation. _Draggable Layer Snap Points_ lets you define points on the screen the layer will snap to. _Draggable Layer Boundaries_ lets you define boundaries for where the element can be dragged. Finally, _Draggable Layer Info_ provides information on the current state of a Draggable Layer
@@ -39,7 +39,7 @@ Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" tar
 
 ####Bluetooth integation
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth.gif"/>
-<img src="" height="0px" width="5px"/>
+<img src="" height="0px" width="15px"/>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth2.gif"/>
 - Use _Bluetooth Send_ and _Bluetooth Receive_ to uni-directionally communicate with a BLE device
 - Use _Bluetooth Connection_ to bi-directionally communicate with a BLE device
