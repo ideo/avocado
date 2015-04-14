@@ -16,7 +16,15 @@ To get started with Avocado simply <a href="https://developer.apple.com/" target
 Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a> that show how to use Avocado. If you are new to Quartz Composer, take a look at <a href="http://facebook.github.io/origami/tutorials/" target="_blank">these tutorials</a>.
 
 
-####Interactions
+###Interactions
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/draggable.gif"/>
+<img src="" height="0px" width="5px"/>
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/carousel.gif"/>
+
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/dial.gif"/>
+<img src="" height="0px" width="5px"/>
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/rolodex.gif"/>
+
 - _Draggable Layer_, a patch that lets you drag and drop a layer and fully customize the behavior of the drag and drop. The _Draggable Layer Animation_ lets you customize the pick-up animation. _Draggable Layer Snap Points_ lets you define points on the screen the layer will snap to. _Draggable Layer Boundaries_ lets you define boundaries for where the element can be dragged. Finally, _Draggable Layer Info_ provides information on the current state of a Draggable Layer
 - _Carousel_, creates a swipeable carousel of images. Information on its current state is provided through the _Carousel Info_ patch. You can customize the way a Carousel looks through the _Carousel Settings_ patch. You can also control the state of a Carousel through the _Carousel Controls_ patch
 - _Bistable_, makes an element snap to two positions. Information on its current state is provided through the _Bistable Info_ patch
@@ -27,35 +35,29 @@ Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" tar
 - _Hit Grid_, creates a grid of Hit Areas. To retrieve which element has been clicked use _Hit Grid Info_
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Carousel.gif"/>
-<img src="" height="0px" width="14px"/>
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Keyboard.gif"/>
-<img src="" height="0px" width="12px"/>
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/MasterDetail.gif"/>
 
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Flip.gif"/>
-<img src="" height="0px" width="14px"/>
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Bistable.gif"/>
-
-####Bluetooth integation
+###Bluetooth integation
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth.gif"/>
+<img src="" height="0px" width="5px"/>
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth2.gif"/>
 - Use _Bluetooth Send_ and _Bluetooth Receive_ to uni-directionally communicate with a BLE device
 - Use _Bluetooth Connection_ to bi-directionally communicate with a BLE device
 - _Aggregate Values_ and _Disaggregate Value_ will help you send 4 values at once or decode one message into 4 values.
 
-####Animations
+###Animations
+<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/animations.gif"/>
 - _Nod_
 - _Pulse_
 - _Jiggle_
 - _Jump_
 
-<img src="https://github.com/trive/avocado/raw/master/Other/GIFs/Animations.gif"/>
 
-####Global Value
+###Global Value
 With Avocado you can save values to be retrieved anywhere in the composition or that can be accessed by another composition running at the same time.
 - _Save Global Boolean_ and _Retrieve Global Boolean_
 - _Save Global String_ and _Retrieve Global String_
 
-####Utilities
+###Utilities
 - _Keyboard 2_, meant to replace the standard _Keyboard_ patch. It provides information on which key is being pressed
 - _Delay Value_, delay any value by the specified amount of time
 - _Gate_, stops the propagation of a signal
