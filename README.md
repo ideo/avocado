@@ -1,7 +1,7 @@
 [![](https://github.com/trive/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado.zip)
 <a href="https://developer.apple.com/register/index.action" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step1.png"/></a><a href="http://origami.facebook.com/quartzcomposer/" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step2.png"/></a><a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step3.png"/></a>
 
-<video src="Other/avocado2.mp4" poster="Other/avocado2poster.png" width="720" height="404" controls preload></video>
+<video src="https://github.com/trive/avocado/raw/master/Other/avocado2.mp4" poster="https://github.com/trive/avocado/raw/master/Other/avocado2poster.png" width="720" height="404" controls preload></video>
 
 Avocado is an open source interaction design toolbox built by​ <a href="http://www.ideo.com" target="_blank">IDEO</a>.​ It ​enables designers to make quick interactive prototypes without writing a line of code.​ ​Built on top of Facebook's <a href="http://origami.facebook.com" target="_blank">Origami</a> framework, Avocado provides ready-to-use patches that can be easily combined to create fully-customized prototypes.​ 
 
@@ -9,7 +9,7 @@ We hope Avocado can be of use to you, and please feel free to share your ideas h
 
 
 ###Getting started
-To get started with Avocado simply <a href="https://developer.apple.com/register/index.action" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
+To get started with Avocado simply <a href="https://developer.apple.com/" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
 
 Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a> that show how to use Avocado.
 
