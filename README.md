@@ -37,7 +37,7 @@ Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" tar
 - _iOS Keyboard_, provides an interactive keyboard. To retrieve the text being typed use _iOS Keyboard Info_
 
 
-####Bluetooth integation
+####Bluetooth integration
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth.gif"/>
 <img src="" height="0px" width="15px"/>
 <img src="https://github.com/trive/avocado/raw/master/Other/GIFs/bluetooth2.gif"/>
