@@ -1,7 +1,7 @@
 [![](https://github.com/trive/avocado/raw/master/Other/logo.png "Click to download Avocado")](https://github.com/ideo/avocado/raw/master/Other/Avocado.zip)
 <a href="https://vimeo.com/trive/avocado2" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/banner.png"/></a>
 
-<a href="https://developer.apple.com/register/index.action" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step1.png"/></a><a href="http://origami.facebook.com/quartzcomposer/" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step2.png"/></a><a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step3.png"/></a>
+<a href="https://developer.apple.com/register/index.action" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step1.png"/></a><a href="https://developer.apple.com/downloads/" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step2.png"/></a><a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank"><img src="https://github.com/trive/avocado/raw/master/Other/step3.png"/></a>
 
 
 
@@ -11,7 +11,7 @@ We hope Avocado can be of use to you, and please feel free to share your ideas h
 
 
 ###Getting started
-To get started with Avocado simply <a href="https://developer.apple.com/" target="_blank">register as an Apple Developer</a>, <a href="http://origami.facebook.com/quartzcomposer/" target="_blank">download Quartz Composer</a>, and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
+To get started with Avocado simply <a href="https://developer.apple.com/" target="_blank">register as an Apple Developer</a>, <a href="https://developer.apple.com/downloads/" target="_blank">download Quartz Composer</a> (it's in the Graphics Tools package), and <a href="https://github.com/ideo/avocado/raw/master/Other/Avocado.zip" target="_blank">install Avocado</a>. 
 
 Here are some <a href="https://github.com/ideo/avocado/tree/master/Examples" target="_blank">examples</a> that show how to use Avocado. If you are new to Quartz Composer, take a look at <a href="http://facebook.github.io/origami/tutorials/" target="_blank">these tutorials</a>.
 
